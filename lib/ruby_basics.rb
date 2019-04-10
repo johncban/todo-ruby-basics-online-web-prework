@@ -28,5 +28,5 @@ end
 
 def pizza_party(base = "cheese", pepperoni)
   puts "Make pizza with #{base} and #{pepperoni}"
-  return cheese, toppings
+  return base, pepperoni
 end
