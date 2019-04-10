@@ -27,6 +27,6 @@ def last_evaluated_value
 end
 
 def pizza_party(cheese, topping = "pepperoni")
-  puts "Make pizza with #{cheese} and #{toppings}"
+  puts "Make pizza with #{cheese} and #{topping}"
   return topping
 end
