@@ -26,7 +26,7 @@ def last_evaluated_value
   return "expert"
 end
 
-def pizza_party(base = "cheese", pepperoni)
-  puts "Make pizza with #{base} and #{pepperoni}"
-  return base, pepperoni
+def pizza_party(cheese, toppings = "pepperoni")
+  puts "Make pizza with #{cheese} and #{toppings}"
+  return cheese, toppings
 end
