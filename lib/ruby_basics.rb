@@ -15,7 +15,7 @@ end
 
 def greeting (greet = "Hello there", name = "Bobby")
   puts "#{greet} #{name}"
-  return name
+  return greet, name
 end
 
 def return_a_value
