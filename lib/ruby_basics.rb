@@ -13,9 +13,8 @@ def argue(argueOne="I am right", argueTwo="you are wrong!")
     return argueOne
 end
 
-def greeting (greetOne="Hi", greetTwo="Hello")
-    puts "#{greetOne}, #{greetTwo}"
-    return greetTwo
+def greeting
+  
 end
 
 def return_a_value
