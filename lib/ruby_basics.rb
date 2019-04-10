@@ -14,7 +14,7 @@ def argue(argueOne="I am right", argueTwo="you are wrong!")
 end
 
 def greeting
-  
+  puts "Hello!"
 end
 
 def return_a_value
